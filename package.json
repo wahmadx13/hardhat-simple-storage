@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "yarn hardhat run scripts/deploy.ts --network sepolia"
+    "start": "yarn hardhat run scripts/deploy.ts"
   },
   "name": "hardhat-simple-storage",
   "version": "1.0.0",
