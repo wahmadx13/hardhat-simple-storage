@@ -1,7 +1,7 @@
 import { HardhatUserConfig } from "hardhat/config"
 import "@nomicfoundation/hardhat-toolbox"
 import "@nomicfoundation/hardhat-verify"
-require("dotenv").config()
+import "dotenv/config"
 import "./tasks/block-number"
 import "hardhat-gas-reporter"
 import "solidity-coverage"
