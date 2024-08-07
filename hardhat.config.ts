@@ -4,6 +4,7 @@ import "@nomicfoundation/hardhat-verify"
 require("dotenv").config()
 import "./tasks/block-number"
 import "hardhat-gas-reporter"
+import "solidity-coverage"
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL || "https://eth-sepolia"
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "0xkey"
